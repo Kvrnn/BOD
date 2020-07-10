@@ -1,2 +1,2 @@
 web: npm  server.js
-service: npm ./src/main.js
+worker: npm ./src/main.js
