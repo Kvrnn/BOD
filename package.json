@@ -1,6 +1,6 @@
 {
   "name": "bod-discordbot",
-  "version": "1.0.1",
+  "version": "1.24.0",
   "description": "A Custom Made bot for a private discord server. Also a novice attempt at a discord bot.",
   "main": "./src/main.js",
   "scripts": {
