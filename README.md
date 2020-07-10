@@ -1,2 +1,2 @@
-# bod
+# 🅱OD
 Discord Bot
