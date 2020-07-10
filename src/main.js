@@ -23,7 +23,7 @@ client.on("message", message => {
     // And our 2 real basic commands!
     if(command === 'ping') {
         message.delete()
-        message.channel.send(`Pong! ${Date.now() - message.createdTimestamp + " ms"}`);
+        message.channel.send(`Pong! \`${Date.now() - message.createdTimestamp + " ms"}\``);
     } else
     if (command === 'blah') {
         message.channel.send('Meh.');
