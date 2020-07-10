@@ -5,28 +5,26 @@
   🅱OD
   <br>
 </h1>
-
 <h4 align="center">Admin Focued Moderation Bot with Music added for Taste</h4>
-
 <p align="center">
   <a href="https://discord.gg/red">
-    <img src="https://discordapp.com/api/guilds/133049272517001216/widget.png?style=shield" alt="Discord Server">
+     <img src="https://discordapp.com/api/guilds/133049272517001216/widget.png?style=shield" alt="Discord Server">
   </a>
   <a href="https://github.com/Kvrnn/BOD">
-    <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/Kvrnn/BOD">
+     <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/Kvrnn/BOD">
   </a>
   <a href="https://github.com/Kvrnn/BOD">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Kvrnn/BOD">
+     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Kvrnn/BOD">
   </a>
   <a href="https://github.com/Kvrnn/BOD/deployments/activity_log?environment=bod-discordbot">
-    <img alt="GitHub deployments" src="https://img.shields.io/github/deployments/Kvrnn/BOD/bod-discordbot">
+     <img alt="GitHub deployments" src="https://img.shields.io/github/deployments/Kvrnn/BOD/bod-discordbot">
   </a>
   <a href="https://github.com/Kvrnn/BOD">
       <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/kvrnn/bod">
   </a>
-    <a href="https://libraries.io/github/Kvrnn/BOD">
+  <a href="https://libraries.io/github/Kvrnn/BOD">
       <img alt="Libraries.io dependency status for GitHub repo" src="https://img.shields.io/librariesio/github/Kvrnn/BOD">
-    </a>
+  </a>
 </p>
 <p align="center">
   <a href="#overview">Overview</a>
