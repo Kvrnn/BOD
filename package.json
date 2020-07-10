@@ -6,6 +6,10 @@
   "scripts": {
     "start": "node ./src/main.js"
   },
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kvrnn/BOD.git"
@@ -23,6 +27,7 @@
   "homepage": "https://github.com/Kvrnn/BOD#readme",
   "dependencies": {
     "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
     "request": "^2.88.2"
   }
 }
