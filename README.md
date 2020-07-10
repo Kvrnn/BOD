@@ -24,22 +24,10 @@
   <a href="https://github.com/Kvrnn/BOD">
       <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/kvrnn/bod">
   </a>
+    <a href="https://libraries.io/github/Kvrnn/BOD">
+      <img alt="Libraries.io dependency status for GitHub repo" src="https://img.shields.io/librariesio/github/Kvrnn/BOD">
+    </a>
 </p>
-<p align="center">
-  <a href="https://libraries.io/github/Kvrnn/BOD">
-    <img alt="Libraries.io dependency status for GitHub repo" src="https://img.shields.io/librariesio/github/Kvrnn/BOD">
-  </a>
-  <a href="http://red-discordbot.readthedocs.io/en/stable/?badge=stable">
-    <img src="https://readthedocs.org/projects/red-discordbot/badge/?version=stable" alt="Red on readthedocs.org">
-  </a>
-  <a href="https://github.com/ambv/black">
-    <img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code Style: Black">
-  </a>
-  <a href="http://makeapullrequest.com">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
-  </a>
-</p>
-
 <p align="center">
   <a href="#overview">Overview</a>
   •
