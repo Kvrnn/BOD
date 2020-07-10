@@ -1,0 +1,28 @@
+{
+  "name": "bod-discordbot",
+  "version": "1.0.0",
+  "description": "A Custom Made bot for a private discord server. Also a novice attempt at a discord bot.",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "node ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kvrnn/BOD.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "nodejs"
+  ],
+  "author": "Kevin (Syntax#5569)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kvrnn/BOD/issues"
+  },
+  "homepage": "https://github.com/Kvrnn/BOD#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "request": "^2.88.2"
+  }
+}
