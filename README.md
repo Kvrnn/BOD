@@ -7,9 +7,6 @@
 </h1>
 <h4 align="center">Admin Focued Moderation Bot with Music added for Taste</h4>
 <p align="center">
-  <a href="https://discord.gg/red">
-     <img src="https://discordapp.com/api/guilds/133049272517001216/widget.png?style=shield" alt="Discord Server">
-  </a>
   <a href="https://github.com/Kvrnn/BOD">
      <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/Kvrnn/BOD">
   </a>
