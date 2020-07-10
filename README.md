@@ -22,6 +22,9 @@
   <a href="https://libraries.io/github/Kvrnn/BOD">
       <img alt="Libraries.io dependency status for GitHub repo" src="https://img.shields.io/librariesio/github/Kvrnn/BOD">
   </a>
+  <a href="https://bod-discordbot.herokuapp.com/">
+    <img alt="Uptime Robot status" src="https://img.shields.io/uptimerobot/status/m785542661-82f3c549c0416e08dc11718f">
+  </a>
 </p>
 <p align="center">
   <a href="#overview">Overview</a>
