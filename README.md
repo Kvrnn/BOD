@@ -23,7 +23,7 @@
       <img alt="Libraries.io dependency status for GitHub repo" src="https://img.shields.io/librariesio/github/Kvrnn/BOD">
   </a>
 </p>
-<p>
+<p align="center">
   <a href="https://bod-discordbot.herokuapp.com/">
     <img alt="Uptime Robot ratio (30 days)" src="https://img.shields.io/uptimerobot/ratio/m785542661-82f3c549c0416e08dc11718f">
   </a>

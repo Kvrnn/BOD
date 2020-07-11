@@ -20,7 +20,6 @@ client.on("message", message => {
 
     // And our 2 real basic commands!
     if(command === 'ping') {
-        message.delete()
         message.channel.send(`Pong! \`${Date.now() - message.createdTimestamp + "ms"}\``);
     } else
     if (command === 'blah') {
@@ -28,7 +27,7 @@ client.on("message", message => {
     } else
     if (command === 'credit') {
         message.channel.send(
-            `This bot was fully developed by ${process.env.AUTHOR} and it opened sourced at ${process.env.GITHUB_REPO}`
+            `This bot was fully developed by ${process.env.AUTHOR} and it's open source @ \<${process.env.GITHUB_REPO}\>`
         );
     } else
     if (command === 'invite') {
