@@ -1,12 +1,10 @@
-// This line MUST be first, for discord.js to read the process envs!
-require('dotenv').config();
-
 const Discord = require("discord.js");
-const client = new Discord.Client();
+const client =  new Discord.Client();
+                require('dotenv').config();
 
 client.on("ready", () => {
-    client.user.setActivity("Ape Simulator | //", {
-        type: "PLAYING"
+    client.user.setActivity("your loud ass at //", {
+        type: "LISTENING"
     });
     console.log("I am ready!");
 });
@@ -23,10 +21,18 @@ client.on("message", message => {
     // And our 2 real basic commands!
     if(command === 'ping') {
         message.delete()
-        message.channel.send(`Pong! \`${Date.now() - message.createdTimestamp + " ms"}\``);
+        message.channel.send(`Pong! \`${Date.now() - message.createdTimestamp + "ms"}\``);
     } else
     if (command === 'blah') {
         message.channel.send('Meh.');
+    } else
+    if (command === 'credit') {
+        message.channel.send(
+            `This bot was fully developed by ${process.env.AUTHOR} and it opened sourced at ${process.env.GITHUB_REPO}`
+        );
+    } else
+    if (command === 'invite') {
+        message.channel.send('Send this to your friends so that ');
     }
 });
 
