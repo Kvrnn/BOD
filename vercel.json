@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "env": {
+        "CLIENT_TOKEN"  : "@CLIENT_TOKEN",
+        "PREFIX"        : "@PREFIX",
+        "INVITATION"    : "@INVITATION",
+        "GITHUB_REPO"   : "@GITHUB_REPO",
+        "AUTHOR"        : "@AUTHOR"
+    }
+}
