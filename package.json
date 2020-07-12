@@ -6,7 +6,7 @@
   "scripts": {
     "web": "node server.js",
     "worker": "node ./src/main.js",
-    "start": "node server.js & node ./src/main.js"
+    "dual": "node server.js & node ./src/main.js"
   },
   "engines": {
     "node": "12.x",
