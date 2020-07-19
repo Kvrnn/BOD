@@ -31,7 +31,7 @@ client.on("message", message => {
         );
     } else
     if (command === 'invite') {
-        command.channel.send("", { embed: {
+        command.channel.send("Send this to your friends so that", { embed: {
                 color: 0xe74c3c,
                 title: "Send this to your friends so that",
                 description: "Error was logged to console."
