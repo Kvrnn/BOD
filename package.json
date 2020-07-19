@@ -1,12 +1,12 @@
 {
   "name": "bod-discordbot",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A Custom Made bot for a private discord server. Also a novice attempt at a discord bot.",
   "main": "./src/main.js",
   "scripts": {
     "web": "node server.js",
     "worker": "node ./src/main.js",
-    "dual": "node server.js & node ./src/main.js"
+    "build": "node server.js & node ./src/main.js"
   },
   "engines": {
     "node": "12.x",

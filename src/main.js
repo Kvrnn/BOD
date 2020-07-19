@@ -32,7 +32,33 @@ client.on("message", message => {
     } else
     if (command === 'invite') {
         message.channel.send('Send this to your friends so that ');
-    }
+    } else
+        if(command === 'prune'){
+            let msgArgs = command.content.split(" ");
+            if (/^[-]?[0-9]+$/.test(msgArgs[1]) && parseInt(msgArgs[1] > 0)) {
+                command.channel.bulkDelete(parseInt(msgArgs[1]))
+                    .then(messages => {
+                        command.channel.send("", { embed: {
+                                color: 0x2ecc71,
+                                description: `${messages.size} message${(messages.size > 1) ? "s were" : " was"} deleted.`
+                            }});
+                    })
+                    .catch((error) => {
+                        console.error(error);
+                        command.channel.send("", { embed: {
+                                color: 0xe74c3c,
+                                title: "Problem trying to prune.",
+                                description: "Error was logged to console."
+                            }});
+                    });
+            }
+            else {
+                command.channel.send("", { embed: {
+                        color: 0xe74c3c,
+                        description: "Must include a number greater than 0."
+                    }});
+            }
+        }
 });
 
 // There's zero need to put something here. Discord.js uses process.env.CLIENT_TOKEN if it's available,
