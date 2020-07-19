@@ -31,7 +31,11 @@ client.on("message", message => {
         );
     } else
     if (command === 'invite') {
-        message.channel.send('Send this to your friends so that ');
+        command.channel.send("", { embed: {
+                color: 0xe74c3c,
+                title: "Send this to your friends so that",
+                description: "Error was logged to console."
+            }});
     } else
         if(command === 'prune'){
             let msgArgs = command.content.split(" ");
