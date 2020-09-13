@@ -71,6 +71,7 @@ from installation and updating, every part of the bot can be controlled from wit
 community of cog repositories.**
 
 # Installation
+[![Run on Repl.it](https://repl.it/badge/github/Kvrnn/BOD)](https://repl.it/github/Kvrnn/BOD)
 
 **The following platforms are officially supported:** 
 
